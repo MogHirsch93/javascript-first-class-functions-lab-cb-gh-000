@@ -7,3 +7,6 @@ function createMultiplier(multiplierValue){
     return a * multiplierValue;
   }
 }
+
+let doubler = createMultiplier(2);
+let tripler = createMultiplier(3);
