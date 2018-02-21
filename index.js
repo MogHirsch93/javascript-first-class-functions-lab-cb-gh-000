@@ -10,3 +10,7 @@ function createMultiplier(multiplierValue){
 
 let doubler = createMultiplier(2);
 let tripler = createMultiplier(3);
+
+multiplier(multiplierValue, value){
+  return multiplierValue * value
+}
