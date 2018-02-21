@@ -11,7 +11,7 @@ function createMultiplier(multiplierValue){
 let doubler = createMultiplier(2);
 let tripler = createMultiplier(3);
 
-function multiplier(multiplierValue, value){
+multiplier(multiplierValue, value){
   return multiplierValue * value;
 }
 
