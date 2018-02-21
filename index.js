@@ -11,11 +11,9 @@ function createMultiplier(multiplierValue){
 let doubler = createMultiplier(2);
 let tripler = createMultiplier(3);
 
-
-
 function multiplier(multiplierValue, value){
   return multiplierValue * value;
 }
 
-let doublerWithBind = doubler.bind(2, multiplier);
+let doublerWithBind = multiplier.bind(null, 2);
 let triplerWithBind = multiplier.bind(3, tripler);
