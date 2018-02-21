@@ -15,5 +15,5 @@ function multiplier(multiplierValue, value){
   return multiplierValue * value;
 }
 
-let doublerWithBind = multiplier.bind(null, 2);
+let doublerWithBind = multiplier.bind(2, null);
 let triplerWithBind = multiplier.bind(3, tripler);
