@@ -14,3 +14,5 @@ let tripler = createMultiplier(3);
 multiplier(multiplierValue, value){
   return multiplierValue * value
 }
+
+let doublerWithBind = multiplier.bind(2);
